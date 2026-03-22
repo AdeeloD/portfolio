@@ -13,6 +13,7 @@ function GithubIcon() {
 const projectEmoji = {
   bookit:     '📅',
   meowmentor: '🐱',
+  pdfanswer: "📄",
 }
 
 
@@ -84,6 +85,7 @@ function ProjectCard({ project, labels }) {
           <GithubIcon />
           {labels.github_btn}
         </a>
+        {project.demo && (<a href={project.demo} target="_blank" rel="noreferrer" className="btn-primary flex-1 justify-center text-sm py-2.5">{labels.demo_btn}</a>)}
       </div>
     </div>
   )

@@ -40,6 +40,16 @@ export const content = {
           demo: null,
           tag: 'Személyes projekt',
         },
+        {
+          id: 'pdfanswer',
+          title: 'PDFanswer',
+          description:
+            'AI-alapú dokumentum chatbot, amely lehetővé teszi PDF fájlok feltöltését és természetes nyelvű kérdezést a tartalmukból. RAG architektúrán alapul, OCR támogatással szkennelt dokumentumokhoz.',
+          stack: ['Python', 'Streamlit', 'LangChain', 'FAISS', 'Groq API', 'Docker'],
+          github: 'https://github.com/AdeeloD/pdfanswer',
+          demo: 'https://pdfanswer-production.up.railway.app',
+          tag: 'Személyes projekt',
+        },
       ],
       github_btn: 'GitHub',
       demo_btn: 'Demo',
@@ -123,6 +133,16 @@ export const content = {
           stack: ['React Native', 'Firebase', 'Expo', 'JavaScript'],
           github: 'https://github.com/AdeeloD/meowmentor',
           demo: null,
+          tag: 'Personal Project',
+        },
+        {
+          id: 'pdfanswer',
+          title: 'PDFanswer',
+          description:
+            'An AI-powered document chatbot that lets you upload PDF files and ask questions about their content in natural language. Built on a RAG architecture with OCR support for scanned documents.',
+          stack: ['Python', 'Streamlit', 'LangChain', 'FAISS', 'Groq API', 'Docker'],
+          github: 'https://github.com/AdeeloD/pdfanswer',
+          demo: 'https://pdfanswer-production.up.railway.app',
           tag: 'Personal Project',
         },
       ],
