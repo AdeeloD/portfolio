@@ -17,8 +17,8 @@ export const content = {
     },
 
     projects: {
-      label: 'Projektek',
-      heading: 'Amiken dolgoztam',
+      label: 'Projektjeim',
+      heading: '',
       items: [
         {
           id: 'bookit',
